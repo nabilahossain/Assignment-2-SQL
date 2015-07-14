@@ -3,8 +3,8 @@
 # 1. What weather conditions are associated with New York City departure delays? 
 #Answer: Based on the query below, some of the weather condition that associate with New York City departure delays are shown. Weather condition 
 that associate with precipitation, visibility  and wind speed are rain, snow, sleet, hail, fog, storm and other windy conditions. The average delay 
-per plane when there is precipitation is 28 min. When visibility is greater than 6 the average delay is 25 min/flight and the wind speed > 15 is 
-14 min/flight. While when there is no precipitation. visibility >=6 and wind speed <=15, the average delay per flight is 10 min.
+per plane when there is precipitation is 28 min. When visibility is less than 6 the average delay is 25 min/flight and the wind speed > 15 is 
+14 min/flight. While when there is no precipitation, visibility >=6 and wind speed <=15, the average delay per flight is 10 min.
 
 
 SELECT 
